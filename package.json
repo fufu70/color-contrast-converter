@@ -1,0 +1,26 @@
+{
+  "name": "color-contrast-converter",
+  "version": "1.0.0",
+  "description": "Converts a RGG color, of a specific base palette, to a desired contrast value. This allows any primary color to be WCAG 2.0 Level AAA accessible.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fufu70/color-contrast-converter.git"
+  },
+  "keywords": [
+    "contrast",
+    "WCAG"
+  ],
+  "author": "Christian Micklisch <christian.micklisch@successwithsos.com> (https://github.com/fufu70/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fufu70/color-contrast-converter/issues"
+  },
+  "homepage": "https://github.com/fufu70/color-contrast-converter#readme"
+}
