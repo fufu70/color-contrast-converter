@@ -8,5 +8,5 @@ Import the library and call the convert color by providing a RGB object, `{r: 0.
 ```
 const Converter = require('color-contrast-converter');
 
-var convertedColor = Converter.convert({r: 0.0, g: 0.0, b: 1.0}, 4.5); // {r: 0.381, g: 0.381, b: 1.0}
+var convertedColor = Converter.Convert({r: 0.0, g: 0.0, b: 1.0}, 4.5); // {r: 0.381, g: 0.381, b: 1.0}
 ```
