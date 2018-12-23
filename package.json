@@ -1,6 +1,6 @@
 {
   "name": "color-contrast-converter",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Converts a RGG color, of a specific base palette, to a desired contrast value. This allows any primary color to be WCAG 2.0 Level AAA accessible.",
   "main": "lib/index.js",
   "directories": {
