@@ -12,17 +12,17 @@ describe('Scenario', function () {
             console.assert(typeof Scenario.Red === 'function');
         });
 
-        it('Handles a perfect red constant', function () {
+        it('handles a perfect red constant', function () {
             constant.r = 5.0; 
             console.assert(!Scenario.Red(constant, minConstant, maxConstant));
         });
 
-        it('Handles a red constant above the maximum', function () {
+        it('handles a red constant above the maximum', function () {
             constant.r = 8.0; 
             console.assert(Scenario.Red(constant, minConstant, maxConstant));
         });
 
-        it('Handles a red constant below the minimum', function () {
+        it('handles a red constant below the minimum', function () {
             constant.r = 0.0; 
             console.assert(Scenario.Red(constant, minConstant, maxConstant));
         });
@@ -33,17 +33,17 @@ describe('Scenario', function () {
             console.assert(typeof Scenario.Green === 'function');
         });
         
-        it('Handles a perfect green constant', function () {
+        it('handles a perfect green constant', function () {
             constant.g = 5.0; 
             console.assert(!Scenario.Green(constant, minConstant, maxConstant));
         });
 
-        it('Handles a green constant above the maximum', function () {
+        it('handles a green constant above the maximum', function () {
             constant.g = 8.0; 
             console.assert(Scenario.Green(constant, minConstant, maxConstant));
         });
 
-        it('Handles a green constant below the minimum', function () {
+        it('handles a green constant below the minimum', function () {
             constant.g = 0.0; 
             console.assert(Scenario.Green(constant, minConstant, maxConstant));
         });
@@ -53,17 +53,17 @@ describe('Scenario', function () {
             console.assert(typeof Scenario.Blue === 'function');
         });
 
-        it('Handles a perfect blue constant', function () {
+        it('handles a perfect blue constant', function () {
             constant.b = 5.0; 
             console.assert(!Scenario.Blue(constant, minConstant, maxConstant));
         });
 
-        it('Handles a blue constant above the maximum', function () {
+        it('handles a blue constant above the maximum', function () {
             constant.b = 8.0; 
             console.assert(Scenario.Blue(constant, minConstant, maxConstant));
         });
 
-        it('Handles a blue constant below the minimum', function () {
+        it('handles a blue constant below the minimum', function () {
             constant.b = 0.0; 
             console.assert(Scenario.Blue(constant, minConstant, maxConstant));
         });
@@ -73,19 +73,19 @@ describe('Scenario', function () {
             console.assert(typeof Scenario.RedGreen === 'function');
         });
 
-        it('Handles a perfect red and green constant', function () {
+        it('handles a perfect red and green constant', function () {
             constant.r = 5.0; 
             constant.g = 5.0; 
             console.assert(!Scenario.RedGreen(constant, minConstant, maxConstant));
         });
 
-        it('Handles a red and green constant above the maximum', function () {
+        it('handles a red and green constant above the maximum', function () {
             constant.r = 8.0; 
             constant.g = 8.0; 
             console.assert(Scenario.RedGreen(constant, minConstant, maxConstant));
         });
 
-        it('Handles a red and green constant below the minimum', function () {
+        it('handles a red and green constant below the minimum', function () {
             constant.r = 0.0; 
             constant.g = 0.0; 
             console.assert(Scenario.RedGreen(constant, minConstant, maxConstant));
@@ -96,19 +96,19 @@ describe('Scenario', function () {
             console.assert(typeof Scenario.RedBlue === 'function');
         });
 
-        it('Handles a perfect red and blue constant', function () {
+        it('handles a perfect red and blue constant', function () {
             constant.r = 5.0; 
             constant.b = 5.0; 
             console.assert(!Scenario.RedBlue(constant, minConstant, maxConstant));
         });
 
-        it('Handles a red and blue constant above the maximum', function () {
+        it('handles a red and blue constant above the maximum', function () {
             constant.r = 8.0; 
             constant.b = 8.0; 
             console.assert(Scenario.RedBlue(constant, minConstant, maxConstant));
         });
 
-        it('Handles a red and blue constant below the minimum', function () {
+        it('handles a red and blue constant below the minimum', function () {
             constant.r = 0.0; 
             constant.b = 0.0; 
             console.assert(Scenario.RedBlue(constant, minConstant, maxConstant));
@@ -120,19 +120,19 @@ describe('Scenario', function () {
             console.assert(typeof Scenario.GreenBlue === 'function');
         });
 
-        it('Handles a perfect green and blue constant', function () {
+        it('handles a perfect green and blue constant', function () {
             constant.g = 5.0; 
             constant.b = 5.0; 
             console.assert(!Scenario.GreenBlue(constant, minConstant, maxConstant));
         });
 
-        it('Handles a green and blue constant above the maximum', function () {
+        it('handles a green and blue constant above the maximum', function () {
             constant.g = 8.0; 
             constant.b = 8.0; 
             console.assert(Scenario.GreenBlue(constant, minConstant, maxConstant));
         });
 
-        it('Handles a green and blue constant below the minimum', function () {
+        it('handles a green and blue constant below the minimum', function () {
             constant.g = 0.0; 
             constant.b = 0.0; 
             console.assert(Scenario.GreenBlue(constant, minConstant, maxConstant));
