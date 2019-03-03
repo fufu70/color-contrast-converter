@@ -13,9 +13,9 @@ var convertedColor = Converter.Convert({r: 0.0, g: 0.0, b: 1.0}, 4.5); // {r: 0.
 
 ## Code Coverage
 
-Statements: 98.61% 
-Branches:   97.22%
-Functions:  100%
-Lines:      98.61%
+* Statements: 98.61% 
+* Branches:   97.22%
+* Functions:  100%
+* Lines:      98.61%
 
 Code coverage calculates from `nyc` using `mocha`.
